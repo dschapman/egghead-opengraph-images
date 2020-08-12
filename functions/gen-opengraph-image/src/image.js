@@ -81,8 +81,9 @@ function App() {
             fontSize: 36
           }}
         >
-          {<Twemoji
-              options={{ className: "emoji", folder: "svg", ext: ".svg" }}>{window.type}</Twemoji>}
+          <span><Twemoji
+              options={{ className: "emoji", folder: "svg", ext: ".svg" }}>{window.type}</Twemoji>
+            </span>
           <span>{window.author}</span>
         </div>
       </div>
