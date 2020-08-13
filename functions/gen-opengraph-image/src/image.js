@@ -16,7 +16,6 @@ function App() {
         overflow: "hidden"
       }}
     >
-      <link rel="stylesheet" href="https://use.typekit.net/osf8fyt.css" />
       <Global
         styles={{
           ".emoji": {
@@ -34,6 +33,7 @@ function App() {
           }
         }}
       />
+      <link rel="stylesheet" href="https://use.typekit.net/osf8fyt.css" />
       <div
         css={{
           background: "#EEF6F7",
